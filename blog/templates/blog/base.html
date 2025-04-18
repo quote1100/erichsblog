@@ -1,0 +1,83 @@
+{#Base of webpage#}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa&family=Newsreader:opsz@6..72&family=Zain:wght@300&display=swap" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href={% static 'blog/style.css'%}>
+
+  <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Radley:ital@0;1&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">-->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  {% if title%}
+    <title>Erich Sung - {{title}}</title>
+  {% else %}
+    <title>Erich Sung</title>
+  {% endif %}
+  		
+  
+</head>
+
+<body class="d-flex flex-column">
+  <div class= "container-fluid bg-dark">
+    <div class= "container">
+      <nav class="navbar navbar-expand-lg navbar-dark col-auto" id="navmenu">
+        <a class="navbar-brand col-auto text-light" id="logo" href="/"> ERICH SUNG </a>
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse col align-self-end" id="navbarNavDropdown">
+          <ul class="navbar-nav col-auto ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="/about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="/posts">Posts</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu text-light bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item text-light bg-dark" href="/rpcoff">Rock Paper Scissors Offline</a>
+                <a class="dropdown-item text-light bg-dark" href="/rpconline">Rock Paper Scissors Online</a>
+                <a class="dropdown-item text-light bg-dark" href="/tfproject">tensorflow project</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+    <article class="container bg-light flex-fill" style="padding:40px; padding-top:30px;  padding-bottom: 10px;">
+    <!--articles go here  -->
+		<div class="container d-flex flex-column">
+    		{% block content %}
+    		{% endblock content%}
+    	</div>
+    </article>
+    
+    <footer class="bg-light container navbar justify-content-center">
+      Erich's Blog Copyright © 2019.
+    </footer>
+
+
+  <!--js library for bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>

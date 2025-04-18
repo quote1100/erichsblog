@@ -1,0 +1,36 @@
+{#this is the index page for erich's blog#}
+
+{% extends "blog/base.html" %}
+{% block content %}
+
+<style media="screen">
+	.resources {
+
+
+		bottom: 10%;
+
+		/* width: 100%; */
+	}
+</style>
+
+	<h1 style="font-weight: bold; text-align: center;">Thank you for visiting my Blog!</h1>
+	<br>
+	<div style="height: 80%; text-align: center; padding:20px;" class="row justify-content-center">
+		<div style="padding:20px;" class="d-flex align-items-center">
+			<div style="border: 3px solid grey;" class="container">
+				<p style="padding-top: 16px" class="">This blog contains my personal posts and projects.</p>
+						<div class="w-100"></div>
+				<p class="">If you want to know more about me, please click <a href="/about">here</a>! </p>
+			</div>
+		</div>
+	</div>
+	<br>
+		<p style="font-size: 10px; text-align: center;">This website was deployed via using <a href="https://cloud.google.com">google cloud platform</a>
+			<br>
+			Libraries and Frameworks used for this website include:
+			<a href="https://www.djangoproject.com/">django</a>,
+			<a href="https://getbootstrap.com/">bootstrap</a>,
+		</p>
+
+
+{% endblock content %}

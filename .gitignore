@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Server related files
+erichsblog_uwsgi.ini
+uwsgi_params
