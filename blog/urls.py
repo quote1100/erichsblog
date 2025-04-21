@@ -15,6 +15,6 @@ urlpatterns = [
 
     path('posts/<int:pk>/', PostDetailView.as_view(), name="blog-posts-detail"),
     path('rpcoff/', views.rpcoff, name="blog-rpcoffline"),
-    path('rpconline/', views.rpconline, name="blog-rpconline"),
-    path('tfproject/', views.tfproject, name="blog-tensorflow"),
+    path('fp1/', views.fp1, name="fp1"),
+    path('fp2/', views.fp2, name="fp2"),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -33,12 +33,12 @@ class PostDetailView(DetailView):
 class PostCreateView (CreateView):
     model = Posts
     fileds = ['title','content']
-
+ 
 def rpcoff(request):
     return render(request, 'blog/rpcoff.html', {'title': 'Rock Paper Scissors Java version'})
 
-def rpconline(request):
-    return render(request, 'blog/rpconline.html', {'title': 'Under Construction'})
+def fp1(request):
+    return render(request, 'blog/fp1.html', {'title': 'Under Construction'})
 
-def tfproject(request):
-    return render(request, 'blog/tfproject.html', {'title': 'Under Construction'})
+def fp2(request):
+    return render(request, 'blog/fp2.html', {'title': 'Under Construction'})

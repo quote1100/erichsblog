@@ -1,0 +1,39 @@
+nav {
+  font-family: "Zain", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+}
+
+body {
+   min-height:100vh;
+}
+
+article {
+  font-family: "Newsreader", serif;
+  font-size: 19px;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+}
+
+
+footer {
+  font-family: "Zain", sans-serif;
+  font-size: 12px;
+}
+
+
+#navmenu {    
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+#logo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Lexend Exa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 59px;
+}

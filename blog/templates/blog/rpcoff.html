@@ -1,11 +1,23 @@
 {#This will hold my PRC simultator JAVA version#}
 {% extends "blog/base.html" %}
 {% block content %}
-<p>This is a Rock Paper Scissors simulator that I programmed using java. The idea of this project is to simulate Rock Paper Scissors Ai that has 'higher chance of winning'.</p>
-<p>There has been numerous studies about how to win a game of Rock Paper and Scissors. One study showed interesting pattern in the game: first choice was purely random. Second choice, however, depended on the outcome of the first round. If the player had won the first round, he or she usually stayed with his or her choice. If the player had lost the first round, then he or she usually would choose one that would have beaten the opponent. </p>
-<p>For example, when the player chose rock and won, the said player will often want to re-choose rock the next round. If the player lost with rock, however, the player will than typically lean toward scissors, which would've beaten the opponent's paper.</p>
-<p>'Easy bot' is purely random in terms of its selection. 'Hard bot', however, is programmed so that it will use the said logic to try to beat the player. For its first choice, AI will choose randomly. For the second or any latter choice, if the AI had won previous round, then it will be more likely to choose what the player has chosen previously. If the AI had lost the previous round, then it will likely choose what would have beaten the player in the first round because the player will likely stay with his or her choice. However, there is still randomness in the choice of the AI. This is to prevent players from taking advantage of the logic.</p>
-<p>This program was programmed with Java and requires JRE to run. You can download the program from following link.</p>
-<p><a href='../media/RPCjar.jar'>Click Here</a> to download Rock Paper Scissors Simulator</p>
+<p>This is a Rock Paper Scissors game I built using Java. The goal of the project was to simulate a game where the computer has a higher chance of winning—basically giving the bot a bit of an edge. It was one of the first programs I ever created, so while it's simple, it gave me a chance to practice using Java, Git, and general programming concepts.</p>
+<p>There are two bot difficulty levels:</p>
+<ul>
+<li>Easy: Makes completely random choices.</li>
+<li>Hard bot: Uses a bit of strategy:</li>
+    <ul>
+        <li>On the first round, it chooses randomly.</li>
+        <li>After that:</li>
+        <ul>
+            <li>If it won the last round, it tends to copy your previous move.</li>
+            <li>If it lost, it's more likely to choose the move that beats what you played last time—anticipating you might repeat it.</li>
+        </ul>
+        <li>There’s always some randomness to avoid being too predictable.</li>
+    </ul>
+</ul>
+
+<p>The program is written in Java and requires the Java Runtime Environment (JRE) to run. You can download it using the link below. Just a heads-up: it might trigger a warning in Windows Defender. If you're unsure, feel free to check out the source code on my GitHub.</p>
+<p><a href='../media/RPCjar.jar'>Click Here</a> to download</p>
 
 {% endblock content %}

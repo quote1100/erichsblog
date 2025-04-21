@@ -3,11 +3,13 @@
 
 {% block content %}
 <style>
-	a:hover .emailme {
+	a:hover .contact {
 		display: none;}
-
-	a:hover .myemail:before {
+	a:hover .contactme:before {
 		content:"quote1100@gmail.com";}
+	a:hover .github:before {
+		content:"https://github.com/quote1100";}
+
 	.aboutpage {
 		font-size: 20px;
 		line-height:40px; }
@@ -22,16 +24,22 @@
 </style>
 <div class="aboutpage">
 	<p>Hi there,</p>
-	<p>I’m a Software Engineer at Gainwell Technologies, where I primarily work with C and shell scripts to build and maintain programs for Medicaid systems.</p>
+	<p>I’m a Software Engineer at Gainwell Technologies, where I primarily work with C and scripts to build and maintain applications for Medicaid systems.</p>
 	<p>I love learning—whether it's picking up a new language, exploring better ways to code, or tinkering with new tools. I’m always looking to grow as a developer and sharpen how I think.</p>
 	<p>Outside of work, you’ll usually find me watching basketball, playing retro games, or relaxing with my dogs. It’s how I recharge and keep things balanced.</p>
-	<p>This blog is my personal space to share thoughts on software development, side projects, and the occasional personal interest. If you’d like to get in touch—whether for a professional opportunity or just to chat about how the Nuggets are doing—feel free to reach out at
-		<a href='mailto: quote1100@gmail.com'>
-			<span class="emailme">email</span>
-			<span class="myemail"></span>
-		</a>.
-	</p>
+	<p>This blog is my personal space to share thoughts on software development, side projects, and the occasional personal interest. If you’d like to get in touch—whether for a professional opportunity or just to chat about how the Nuggets are doing—feel free to reach out!</p>
 	<p>Thanks for visiting!</p>
+
+	<a href='mailto: quote1100@gmail.com'>
+		<span class="contact">email</span>
+		<span class="contactme"></span>
+	</a> <br>
+
+	<a href="https://github.com/quote1100">
+		<span class="contact">github</span>
+		<span class="github"></span>
+	</a> 
+	
 </div>
 <p class="signature">Erich Sung <br>
 	March 5th, 2019</p>
