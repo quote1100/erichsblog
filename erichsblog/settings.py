@@ -28,7 +28,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [env('HOST_IP'),'localhost']
+ALLOWED_HOSTS = [env('HOST_IP'),'localhost','erichsblog.appspot.com']
 
 
 # Application definition

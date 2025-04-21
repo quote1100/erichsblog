@@ -176,3 +176,6 @@ cython_debug/
 # Server related files
 erichsblog_uwsgi.ini
 uwsgi_params
+uwsgi.ini
+app.yaml
+.gcloudignore
