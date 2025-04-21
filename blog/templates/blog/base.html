@@ -31,39 +31,39 @@
 </head>
 
 <body class="d-flex flex-column">
-  <div class= "container-fluid bg-white">
-    <div class= "container">
-      <nav class="navbar navbar-expand-lg navbar-light col-auto" id="navmenu">
-        <a class="navbar-brand col-auto text-dark" id="logo" href="/"> ERICH SUNG </a>
-          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse col align-self-end" id="navbarNavDropdown">
-          <ul class="navbar-nav col-auto ml-auto">
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="/about">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="/posts">Posts</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Projects
-              </a>
-              <div class="dropdown-menu text-dark bg-white" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item text-dark bg-white" href="/rpcoff">Rock Paper Scissors</a>
-                <a class="dropdown-item text-dark bg-white" href="/fp1">Future Project 1</a>
-                <!--<a class="dropdown-item text-light bg-dark" href="/fp2">Future Project 2</a>-->
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <div class="d-flex flex-column min-vh-100 bg-light">
+    <div class= "container-fluid bg-white">
+      <div class= "container">
+        <nav class="navbar navbar-expand-lg navbar-light col-auto" id="navmenu">
+          <a class="navbar-brand col-auto text-dark" id="logo" href="/"> ERICH SUNG </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse col align-self-end" id="navbarNavDropdown">
+            <ul class="navbar-nav col-auto ml-auto">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="/about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="/posts">Posts</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Projects
+                </a>
+                <div class="dropdown-menu text-dark bg-white" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item text-dark bg-white" href="/rpcoff">Rock Paper Scissors</a>
+                  <a class="dropdown-item text-dark bg-white" href="/fp1">Future Project 1</a>
+                  <!--<a class="dropdown-item text-light bg-dark" href="/fp2">Future Project 2</a>-->
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
-  </div>
 
-  <div class="bg-light min-vh-100 d-flex flex-column">
-    <article class="container" style="padding:40px; padding-top:30px;  padding-bottom: 10px;">
+    <article class="container bg-light flex-fill" style="padding:40px; padding-top:30px;  padding-bottom: 10px;">
     <!--articles go here  -->
 		<div class="container d-flex flex-column">
     		{% block content %}
