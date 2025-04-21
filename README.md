@@ -6,9 +6,10 @@ This is the source code for my personal blog, **Erich's Blog**.
 
 ## 🛠 Tech Stack
 
-- Django  
-- HTML  
-- CSS  
+- **Django** – Web framework for backend logic and routing  
+- **HTML** – Structure of the blog pages  
+- **CSS (Bootstrap)** – Styling and responsive layout  
+- **PostgreSQL** – Database for storing blog posts and user data  
 
 ---
 
