@@ -1,7 +1,7 @@
 # Erich's Blog
 
-This is the source code for my personal blog, **Erich's Blog**.
-Optimized for mobile and desktop views  
+This is the source code for my personal blog, **Erich's Blog**.  
+Responsive and optimized for both mobile and desktop views  
 
 ---
 
