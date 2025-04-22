@@ -177,5 +177,4 @@ cython_debug/
 erichsblog_uwsgi.ini
 uwsgi_params
 uwsgi.ini
-app.yaml
 .gcloudignore
