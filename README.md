@@ -1,6 +1,7 @@
 # Erich's Blog
 
 This is the source code for my personal blog, **Erich's Blog**.
+Optimized for mobile and desktop views  
 
 ---
 
@@ -10,15 +11,6 @@ This is the source code for my personal blog, **Erich's Blog**.
 - **HTML** – Structure of the blog pages  
 - **CSS (Bootstrap)** – Styling and responsive layout  
 - **PostgreSQL** – Database for storing blog posts and user data  
-
----
-
-## ✨ Features
-
-- A simple blog layout with posts displayed dynamically  
-- **Responsive**: Optimized for mobile and desktop views  
-- **Customizable**: The design can be easily customized to suit your needs  
-- **Posts**: Display blog posts with support for basic text formatting  
 
 ---
 
