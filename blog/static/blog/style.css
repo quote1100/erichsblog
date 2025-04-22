@@ -37,3 +37,19 @@ footer {
     font-style: normal;
     font-size: 59px;
 }
+
+/* Medium screens (tablets and down) */
+@media (max-width: 992px) {
+    #logo {
+        font-size: 40px;
+    }
+}
+
+/* Mobile-specific override for logo font size */
+@media (max-width: 576px) {
+    #logo {
+        font-size: 2rem !important;  /* Shrink on small screens */
+    }
+}
+
+
