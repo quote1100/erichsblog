@@ -5,7 +5,7 @@ Responsive and optimized for both mobile and desktop views
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Django** – Web framework for backend logic and routing  
 - **HTML** – Structure of the blog pages  
@@ -14,10 +14,16 @@ Responsive and optimized for both mobile and desktop views
 
 ---
 
-## 🚀 Future Plans
+## Future Plans
+
+### Server  
+- Only allow Connection to GCE from GCA
+- Ensure more sercurity with DB  
 
 ### Main Page
 - Add a background picture that blends in with the design of the blog  
+- Add effect when hovering over navigator  
+- add 404 page  
 
 ### Posts
 - Allow line breaks in posts for better formatting  
