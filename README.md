@@ -20,6 +20,7 @@ Responsive and optimized for both mobile and desktop views
 - Only allow Connection to GCE from GCA
 - Ensure more sercurity with DB  
 - Move everything to docker  
+- remove download link for binary file and move it to github  
 
 ### Main Page
 - Add a background picture that blends in with the design of the blog  
