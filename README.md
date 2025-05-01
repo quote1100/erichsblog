@@ -19,6 +19,7 @@ Responsive and optimized for both mobile and desktop views
 ### Server  
 - Only allow Connection to GCE from GCA
 - Ensure more sercurity with DB  
+- Move everything to docker  
 
 ### Main Page
 - Add a background picture that blends in with the design of the blog  
